@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"name": "FlxProject",
+			"path": "/home/zrfu/dev/dss/default"
+		},
+		{
+			"name": "Flixel",
+			"path": "/usr/share/haxe/lib/flixel/3,3,8"
+		},
+		{
+			"name": "Flixel Addons",
+			"path": "/usr/share/haxe/lib/flixel-addons/1,1,0"
+		},
+		{
+			"name": "Haxe",
+			"path": "/usr/lib/haxe/std"
+		},
+		{
+			"path": "source"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="kafle" tilewidth="32" tileheight="32">
+  <image source="../../../../../Pulpit/dss/platforms.png" width="320" height="240"/>
+ </tileset>
+ <layer name="kolizyjne" width="100" height="100">
+  <properties>
+   <property name="nocollide" value="true"/>
+   <property name="tileset" value="kafle"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzty7ENACAMA8FMQNh/WlKniBANzZ30nR0BAG9WldW+2PSmDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBPB26MAJc=
+  </data>
+ </layer>
+ <layer name="tlo" width="100" height="100">
+  <properties>
+   <property name="nocollide" value="sru"/>
+   <property name="tileset" value="kafle"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1TkKgEAQRUH3RA3V+9/URjAZRAzERqiCh8kInf2qAviPLuqj4cGbsrt/eE8dNVGbfQiHMZqiOfsQDku0Rlv2IZDs3Iq++NqOHOdWlNmOPOtFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMC3drKCAXU=
+  </data>
+ </layer>
+ <objectgroup name="start" width="100" height="100">
+  <object name="start" x="61" y="67" width="35" height="34">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="kolizje" width="100" height="100">
+  <object x="339" y="127" width="193" height="10"/>
+  <object x="46" y="128" width="71" height="11"/>
+  <object x="46" y="128" width="71" height="11"/>
+  <object x="204" y="161" width="77" height="9"/>
+  <object x="227" y="171" width="30" height="23"/>
+  <object x="45" y="288" width="201" height="12"/>
+  <object x="57" y="299" width="176" height="17"/>
+ </objectgroup>
+</map>
